@@ -138,14 +138,106 @@
 /* footer styles */
 
 footer {
-    margin-top: 60px;
-    font-family: 'Raleway', sans-serif;
+    margin-top: 40px;
 }
 
-#contact_us {
-    padding: 20px;
-    text-align: center;
-    background-color: rgb(59, 60, 73);
+#gray_part {
+    background-color: #3f414d;
     color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
 
+#contact_footer {
+    display: flex;
+    /* border: 1px solid white; */
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contact_footer input {
+    background-color: transparent;
+    border: 0.5px solid white;
+    padding: 7px;
+}
+
+#contact_footer button {
+    color: white;
+    background-color: transparent;
+    border: 0.5px solid white;
+    padding: 7px;
+}
+
+#Nykaa_app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Nykaa_app img {
+    margin-top: 5px;
+    width: 110px;
+}
+
+#Nykaa_app p {
+    text-align: center;
+    margin: 3px;
+}
+
+#phone {
+    font-size: smaller;
+}
+
+#foot-detail {
+    color: white;
+    background-color: #8c8d94;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+#foot-detail>div {
+    /* border: 1px solid white; */
+    color: white;
+    line-height: 30px;
+}
+
+#foot-detail>div>ul>li:hover {
+    color: #fc2779;
+    cursor: pointer;
+}
+
+#foot-udetail {
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#data {
+    display: flex;
+}
+
+#data img {
+    margin: 10px;
+}
+
+#pinkbar {
+    padding: 20px;
+    background-color: #fc2779;
+    color: white;
+    text-align: center;
+
+}
+
+#pinkbar p {
+    margin-bottom: 0;
+
+}
+
+#pinkbar>li {
+    display: inline;
+    margin: 0 5px;
 }
