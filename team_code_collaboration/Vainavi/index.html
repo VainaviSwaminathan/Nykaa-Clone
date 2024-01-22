@@ -33,6 +33,73 @@
     <title>Nykaa clone | Buy
         cosmetics</title>
 
+    <style>
+        #signup_modal {
+
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            max-width: 600px;
+            /* background-color: rgba(0, 0, 0, 0.5); */
+            z-index: 1000;
+
+        }
+
+        #signup_modal .modal-content {
+            background-color: #fefefe;
+            margin: 10% auto;
+            padding: 10px;
+            border: 1px solid #ccc;
+            width: 80%;
+            max-width: 600px;
+            border-radius: 8px;
+            box-shadow: none;
+            /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+        }
+
+        #signup_modal .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        /* Form styles */
+        #signup_modal form {
+            display: grid;
+            gap: 15px;
+        }
+
+        #signup_modal label {
+            font-size: 16px;
+        }
+
+        #signup_modal input {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        #signup_modal button {
+            background-color: #fc2779;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        #signup_modal button:hover {
+            background-color: #fc2779;
+        }
+    </style>
+
 </head>
 
 <body>
