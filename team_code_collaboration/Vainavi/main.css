@@ -1,0 +1,294 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+
+}
+
+#top_nav1 {
+    position: sticky;
+    top: 0;
+}
+
+
+
+
+/* sales banner styles */
+
+#sales_banner_image {
+    width: 100%;
+}
+
+
+
+/* main section styles */
+main {
+    width: 85%;
+    margin: auto;
+}
+
+main img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+/* the image slider */
+
+
+#image_slider_wrapper {
+    display: flex;
+    align-items: center;
+}
+
+#image_slider {
+    display: flex;
+    overflow-x: scroll;
+}
+
+#image_slider div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+    flex: none;
+}
+
+#image_slider div img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#image_slider::-webkit-scrollbar {
+    display: none;
+}
+
+.material-symbols-outlined {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    /* border: 0.5px solid gray; */
+    border: none;
+    color: gray;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.material-symbols-outlined:hover {
+    cursor: pointer;
+
+}
+
+
+
+/* top brands section styles */
+
+#top_brands {
+    margin-top: 80px;
+    padding: 20px;
+    background-color: rgb(222, 222, 222);
+    border-radius: 10px;
+}
+
+#top_brands h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#card_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+}
+
+.card_type1 img {
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+
+/* stellar collection - section styles */
+
+
+#stellar_collection {
+    margin-top: 80px;
+}
+
+#stellar_collection_image_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#stellar_collection_image_wrapper img {
+    width: 100%;
+}
+
+
+
+/* product card scroller */
+
+
+.product_slider_wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.product_slider {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.product_slider .card_wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 10px;
+    flex: none;
+}
+
+.product_slider::-webkit-scrollbar {
+    display: none;
+}
+
+.material-symbols-outlined {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    /* border: 0.5px solid gray; */
+    border: none;
+    color: gray;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.material-symbols-outlined:hover {
+    cursor: pointer;
+
+}
+
+.cards {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 5px;
+}
+
+.cards:hover {
+    cursor: pointer;
+}
+
+.cards img {
+    width: 100%;
+    margin: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.cards p {
+    text-align: center;
+    font-size: small;
+    margin: 5px;
+}
+
+.heading {
+    margin-top: 80px;
+    text-align: center;
+}
+
+
+/* bottom to top button styles */
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+.top {
+
+    position: fixed;
+    right: 30px;
+    bottom: 16px;
+
+}
+
+/* modal css */
+
+#signup_modal {
+    /* display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); */
+
+    display: none;
+    position: fixed;
+    top: 10px;
+    /* Adjusted top value */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#signup_modal .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#signup_modal .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Form styles */
+#signup_modal form {
+    display: grid;
+    gap: 15px;
+}
+
+#signup_modal label {
+    font-size: 16px;
+}
+
+#signup_modal input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#signup_modal button {
+    background-color: #fc2779;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#signup_modal button:hover {
+    background-color: #fc2779;
+}
