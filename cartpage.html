@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+
+    <!-- google icons link -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- css files -->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="nav.css">
+
+    <link rel="icon" href="//images-static.nykaa.com/media/favicon/default/nykaa_favicon_a.png">
+    <title>Cart</title>
+
+    <style>
+        #cart_empty {
+            width: 100%;
+        }
+
+        #empty_cart {
+            width: 30%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #empty_cart p {
+            text-align: center;
+        }
+
+        #empty_cart button {
+            width: fit-content;
+            padding: 10px;
+            color: white;
+            border: none;
+            background-color: #fc2779;
+            border-radius: 5px;
+        }
+
+        #empty_cart button:hover {
+            background-color: #e56d9b;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav id="top_nav1">
+        <!-- deal message top banner -->
+        <div id="top_banner">
+            <p id="deal_message"> Delightfull deals await!! Shop during our Republic day sale!!</p>
+            <div id="top_banner_links">
+                <a href="index.html">Get App </a>
+                <span>|</span>
+                <a href="index.html">Store & Events </a>
+                <span>|</span>
+                <a href="index.html">Gift Card </a>
+                <span>|</span>
+                <a href="index.html">Help </a>
+            </div>
+        </div>
+
+        <div id="main_nav">
+            <div id="wrapper_main_nav1">
+                <a href="index.html" id="nykaa_home"> <img
+                        src="https://cdn.iconscout.com/icon/free/png-128/free-nykaa-3384872-2822953.png?f=webp"
+                        alt="Nykka_logo" id="Nykaa_logo"></a>
+                <div id="main_nav_buttons">
+                    <a href="index.html">Categories</a>
+                    <a href="index.html">Brands</a>
+                    <a href="index.html">luxe</a>
+                    <a href="index.html">Nykaa fashion</a>
+                    <a href="index.html">beauty advice</a>
+                </div>
+            </div>
+
+            <div id="wrapper_main_nav2">
+                <input type="text" id="search" placeholder="Search on Nykaa">
+                <button id="sign_in">Sign in</button>
+                <a id="cart" href="sample.html"><img src="https://www.svgrepo.com/download/43071/shopping-bag.svg"
+                        alt="shopping_cart" id="shopping_cart"></a>
+            </div>
+        </div>
+    </nav>
+
+    <nav id="top_nav2">
+        <div id="top_nav2_wrapper">
+            <a href="categories.html#makeup">Makeup</a>
+            <a href="categories.html#skincare">Skin</a>
+            <a href="categories.html#appliances">appliances</a>
+            <a href="categories.html#body">Bath and body</a>
+            <a href="categories.html#hair">hair</a>
+            <a href="categories.html#Natural">Natural</a>
+            <a href="categories.html#Men">Men</a>
+
+        </div>
+    </nav>
+
+
+
+    <div id="empty_cart">
+
+        <img src="https://media.istockphoto.com/id/861576608/vector/empty-shopping-bag-icon-online-business-vector-icon-template.jpg?s=612x612&w=0&k=20&c=I7MbHHcjhRH4Dy0NVpf4ZN4gn8FVDnwn99YdRW2x5k0="
+            id="cart_empty">
+
+        <p>Your cart is currently empty</p>
+        <button onclick="openModal()">start shopping</button>
+    </div>
+
+
+
+
+
+    <footer>
+        <div id="gray_part">
+            <div id="contact_footer">
+                <div id="Email_input">
+                    <p>Get special discount</p>
+                    <input type="email" placeholder="Enter email">
+                    <button>SEND</button>
+                </div>
+            </div>
+
+            <div id="Nykaa_app">
+                <p>Experience the Nykaa</p>
+                <p>Mobile app</p>
+                <span id="app_images">
+                    <i class="fa-brands fa-google-play"></i>
+                    <img class="googlstore"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/180px-Google_Play_Store_badge_EN.svg.png"
+                        alt="">
+                    <img class="googlstore1"
+                        src="https://www.iottechexpo.com/global/wp-content/uploads/2016/11/app-store-logo.png" alt="">
+                </span>
+            </div>
+
+            <div id="phone">
+
+                <p>For any help contact us here</p>
+                <p>1800-267-4444</p>
+                <p>(Monday to Saturday, 8AM to 10PM and Sunday, 10AM to 7PM)</p>
+
+            </div>
+        </div>
+
+        <div id="foot-detail">
+            <div>
+                <h1>Nykaa</h1>
+                <ul>
+                    <li>Who are we?</li>
+                    <li>Careers</li>
+                    <li>Authenticity</li>
+                    <li>Press</li>
+                    <li>Testimonials</li>
+                    <li>Nykaa CSR</li>
+                    <li>Responsible
+                        Disclosure
+                    </li>
+                    <li>Investor Relation</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Help</h2>
+                <ul>
+                    <li>Contact Us</li>
+                    <li>Frequently asked questions</li>
+                    <li>Store Locator</li>
+                    <li>Cancellation & Return</li>
+                    <li>Shipping & Delivery</li>
+                    <li>Sell on Nykaa</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Inspire Me</h2>
+                <ul>
+                    <li>Beauty Book</li>
+                    <li>Nykaa TV</li>
+                    <li>Nykaa Network</li>
+                    <li>Buying Guides</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Quick Links</h2>
+                <ul>
+                    <li>Offer Zone</li>
+                    <li>New Launches</li>
+                    <li>Nykaa Man</li>
+                    <li>Nykaa Fashion</li>
+                    <li>Nykaa Pro</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Top Categories</h2>
+                <ul>
+                    <li>Makeup</li>
+                    <li>Skin</li>
+                    <li>Hair</li>
+                    <li>Bath & Body</li>
+                    <li>Appliances</li>
+                    <li>Mom and Baby</li>
+                    <li>Wellness</li>
+                    <li>Fragrance</li>
+                    <li>Natural</li>
+                    <li>Luxe</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="foot-udetail">
+            <div id="data">
+                <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Free-shipping.svg" alt="">
+                <div>
+                    <h4>FREE SHIPPING</h4>
+                    <hr>
+                    <p>On Orders Above 299</p>
+                </div>
+            </div>
+            <div id="data">
+                <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/return_accepted.svg" alt="">
+                <div>
+                    <h4>EASY RETURNS</h4>
+                    <hr>
+                    <p>15-Day Return Policy</p>
+                </div>
+            </div>
+            <div id="data">
+                <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Authenticity.svg" alt="">
+                <div>
+                    <h4>100% AUTHENTIC</h4>
+                    <hr>
+                    <p>Products Sourced Directly</p>
+                </div>
+            </div>
+            <div id="data">
+                <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Brands.svg" alt="">
+                <div>
+                    <h4>1900+ BRANDS</h4>
+                    <hr>
+                    <p>1.2 Lakh+ Products</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="pinkbar">
+            <li>Terms & Conditions</li>
+            <li>Shipping Policy</li>
+            <li>Cancellation Policy</li>
+            <li>Privacy Policy</li>
+            <p>© 2022 Nykaa E-Retail Pvt. Ltd. All Rights Reserved.</p>
+        </div>
+
+    </footer>
+
+    <!-- Modal popup -->
+    <div id="signup_modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <!-- Sign Up Form -->
+            <h2>Sign Up</h2>
+            <form id="signupForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Sign Up</button>
+            </form>
+
+            <p id="login_link">click here to login</p>
+
+            <hr>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
+
+<script src="index.js"></script>
+<script>
+    //modal pop-up script
+
+    function openModal() {
+        var modal = document.getElementById('signup_modal');
+        modal.style.display = 'block';
+    }
+
+    function closeModal() {
+        var modal = document.getElementById('signup_modal');
+        modal.style.display = 'none';
+    }
+
+    window.onclick = function (event) {
+        var modal = document.getElementById('signup_modal');
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    };
+
+    var signInButton = document.getElementById('sign_in');
+    signInButton.addEventListener('click', openModal);
+</script>
