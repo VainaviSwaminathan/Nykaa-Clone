@@ -15,8 +15,9 @@ This project is a clone of the official Nykaa E-commerce website. This project a
 
 2) Product and image scroller
 
+![Screenshot 2024-01-24 at 8 56 13 PM](https://github.com/VainaviSwaminathan/Nykaa-Clone/assets/155678331/8dcb9a4f-dbf3-4270-9f40-cf8e2bebad30)
 
-![Uploading Screenshot 2024-01-24 at 8.56.13 PM.png…]()
+
 
 ![Screenshot 2024-01-24 at 9 23 54 PM](https://github.com/VainaviSwaminathan/Nykaa-Clone/assets/155678331/5fbcf08c-75f8-456e-aa4d-366cecaddd55)
 
@@ -26,12 +27,31 @@ This project is a clone of the official Nykaa E-commerce website. This project a
 ![Screenshot 2024-01-24 at 9 24 50 PM](https://github.com/VainaviSwaminathan/Nykaa-Clone/assets/155678331/25c8f6c2-e6e0-4597-ad46-5e70be026e51)
 
 4)responsive Navbar
+
 ![Screenshot 2024-01-24 at 9 25 37 PM](https://github.com/VainaviSwaminathan/Nykaa-Clone/assets/155678331/4a3e687d-c7b0-482a-a7df-0ecd147c0bd5)
+
 ![Screenshot 2024-01-24 at 9 25 31 PM](https://github.com/VainaviSwaminathan/Nykaa-Clone/assets/155678331/861216ce-83c8-4d1c-92d3-ba1eee1890c8)
 
 5)authentication
+
 ![Screenshot 2024-01-24 at 9 26 36 PM](https://github.com/VainaviSwaminathan/Nykaa-Clone/assets/155678331/1a3730e0-5730-4e36-bb4e-6430c5e05d85)
 
+# Technology uses
 
+1)HTML5
+
+2)CSS3
+
+3)Basic Javascript
+
+# Team members
+
+1) Annaparthi Pavan
+
+2) Roshan Kumar
+
+3) Vainavi Swaminathan
+
+4) Detroja Parthivkumar Jagdishbhai
 
 
